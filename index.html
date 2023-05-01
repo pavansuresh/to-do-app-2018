@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>To do application</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="css/style.css" rel="stylesheet" >
+  </head>
+  <body>
+     <div class="container" id="to-do-app">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">To-Do List</h3>
+            </div>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <input class="form-control" 
+                  autocomplete="off" type="text" id="task-input" placeholder="Enter task...">
+                </div>
+                <button id="add-task-btn" type="submit" class="btn btn-primary btn-block">Add Task</button>
+              </form>
+              <hr>
+              <ul class="list-group" id="task-list">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   
+     <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+     <script type="text/javascript" src="script/scripts.js"></script>
+  </body>
+</html>
